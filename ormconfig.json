@@ -1,0 +1,24 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "",
+  "database": "sstestfe",
+  "entities": [
+    "E:\\Desarollo\\Prueba tecnica\\App\\Back\\sstest-fe\\dist\\common\\**\\**\\*entity{.ts,.js}"
+  ],
+  "autoLoadEntities": true,
+  "migrationsRun": false,
+  "migrations": [
+    "E:\\Desarollo\\Prueba tecnica\\App\\Back\\sstest-fe\\dist\\common\\migration\\**\\*{.ts,.js}"
+  ],
+  "migrationsTableName": "migrations_typeorm",
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "dropSchema": true,
+  "synchronize": true,
+  "logging": true,
+  "logger": "file"
+}
